@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>https://embedded-cicd.org/</loc>
+     <lastmod>2018-11-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://embedded-cicd.org/faq/</loc>
+     <lastmod>2018-11-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://embedded-cicd.org/license/</loc>
+     <lastmod>2018-11-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://embedded-cicd.org/about/</loc>
+     <lastmod>2018-11-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
