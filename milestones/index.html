@@ -924,7 +924,8 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Set up legally watertight website with respect to German law (<a href="../impressum/">Impressum</a>, <a href="../datenschutz/">Datenschutz</a>).</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Flesh out its structure and add basic project information.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Material for MkDocs: Fix disappearing tabs.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Website details: favicon/logo + self-host <em>Google Fonts</em>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Website favicon + logo.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Self-host <em>Google Fonts</em> (discussions: <a href="https://github.com/squidfunk/mkdocs-material/issues/739">1</a>, <a href="https://github.com/squidfunk/mkdocs-material/issues/739">2</a>).</li>
 </ul>
 <h2 id="automated_builds_and_release_candidates">Automated builds and release candidates<a class="headerlink" href="#automated_builds_and_release_candidates" title="Permanent link">&para;</a></h2>
 <p>This replaces our current infrastructure and provides the foundation for further improvements.</p>
@@ -957,11 +958,14 @@
 </ul>
 </li>
 <li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Add automated tests.</p>
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Add automated (CI) tests.</p>
 <ul>
 <li>Static code analysis.</li>
+<li>Code quality.</li>
+<li>Style checkers</li>
 <li>Ensure specific function calls are restricted to certain parts of our code (layers, modules).</li>
 <li>Check for adherence to Git Best Practices.</li>
+<li>Smoke tests.</li>
 </ul>
 </li>
 </ul>
